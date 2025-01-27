@@ -1,0 +1,25 @@
+501:
+  loss_D_fake: !!python/object:__main__.AverageMeter
+    count: 8000.0
+    avg: 0.6139023239016533
+    sum: 4911.218591213226
+  loss_D_real: !!python/object:__main__.AverageMeter
+    count: 8000.0
+    avg: 0.6076812255978584
+    sum: 4861.449804782867
+  loss_D: !!python/object:__main__.AverageMeter
+    count: 8000.0
+    avg: 0.6107917739748955
+    sum: 4886.334191799164
+  loss_G_GAN: !!python/object:__main__.AverageMeter
+    count: 8000.0
+    avg: 1.0152204914093017
+    sum: 8121.763931274414
+  loss_G_L1: !!python/object:__main__.AverageMeter
+    count: 8000.0
+    avg: 3.323668797492981
+    sum: 26589.350379943848
+  loss_G: !!python/object:__main__.AverageMeter
+    count: 8000.0
+    avg: 4.338889289855957
+    sum: 34711.114318847656
